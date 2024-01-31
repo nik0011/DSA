@@ -69,22 +69,29 @@ int main(){
     // int c = 1;
     // for (int i = 1; i <= n; i++){
     //     for (int j = 1; j <= i; j++){
-    //         cout << c;
-           
+    //         cout << c;      
     //     }
     //      c++;
     //     cout << endl;
     // }
 
     //for 1,23,345,4567
-    
-    for (int i = 1; i <= n; i++){
-        int c=i;
-        for (int j = 1; j <= i; j++){
-            cout << c;
-            c++;
-        }
-        cout << endl;
-    }
+    // for (int i = 1; i <= n; i++){
+    //     int c=i;
+    //     for (int j = 1; j <= i; j++){
+    //         cout << c;
+    //         c++;
+    //     }
+    //     cout << endl;
+    // }
+
+    ///second  methode
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = i; j <2*i ; j++){
+    //         cout << j;
+            
+    //     }
+    //     cout << endl;
+    // }
         return 0;
 }
