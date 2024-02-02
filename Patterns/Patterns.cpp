@@ -85,13 +85,49 @@ int main(){
     //     cout << endl;
     // }
 
-    ///second  methode
+    //second  methode
     // for (int i = 1; i <= n; i++){
     //     for (int j = i; j <2*i ; j++){
-    //         cout << j;
-            
+    //         cout << j;        
     //     }
     //     cout << endl;
     // }
+
+    //for1,21,321,4321
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = 1; j <= i; j++){
+    //         cout << i - j + 1;
+    //     }
+    //     cout << endl;
+    // }
+
+    // for aaa,bbb,ccc
+    // char ch = 'A';
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = 1; j <= n; j++){
+    //         cout << ch;
+    //     }
+    //     ch++;
+    //     cout << endl;
+    // }
+        
+    //for abc,bcd,def
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = 1; j <= n; j++){
+    //         char ch = 'A' + j + i-2;
+    //         cout << ch;         
+    //     }
+    //     cout << endl;
+    // }
+       
+    //for d,cd,bcd,abcd
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= i; j++){
+            char ch = 'A' + n - i;
+            cout << ch;
+            ch++;
+        }
+        cout << endl;
+    }
         return 0;
 }
