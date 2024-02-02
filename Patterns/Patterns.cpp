@@ -120,14 +120,24 @@ int main(){
     //     cout << endl;
     // }
        
-    //for d,cd,bcd,abcd
-    for (int i = 1; i <= n; i++){
-        for (int j = 1; j <= i; j++){
-            char ch = 'A' + n - i;
-            cout << ch;
-            ch++;
-        }
-        cout << endl;
-    }
+    //for d,cc,bbb,aaaa
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = 1; j <= i; j++){
+    //         char ch = 'A' + n - i;
+    //         cout << ch;
+    //     }
+    //     cout << endl;
+    // }
+
+        // for d,cd,bcd,abcd
+        //  for (int i = 1; i <= n; i++){
+        //      char ch = 'A' + n - i;
+        //      for (int j = 1; j <= i; j++){
+
+        //         cout << ch;
+        //        ch++;
+        //     }
+        //     cout << endl;
+        // }
         return 0;
 }
