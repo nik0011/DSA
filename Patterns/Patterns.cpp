@@ -133,11 +133,100 @@ int main(){
         //  for (int i = 1; i <= n; i++){
         //      char ch = 'A' + n - i;
         //      for (int j = 1; j <= i; j++){
-
         //         cout << ch;
         //        ch++;
         //     }
         //     cout << endl;
         // }
+        
+    //Now we will be solving * pattern
+    // for printing spaces we need one extra while loop or else we just need two loop with proper formula.....
+    // 1. for (int i = 1; i <= n; i++){
+    //     int s = n - i;
+    //     while(s ){
+    //         cout << " ";
+    //         s--;
+    //     }
+    //     for (int j = 1; j <= i; j++){
+    //         cout << "*";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //2.
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = 1; j <= n-i+1; j++){
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+    //   
+    
+    //3.
+    // for (int i = 1; i <= n; i++){
+    //     int s = i - 1;
+    //     while(s){
+    //         cout << ' ';
+    //         s--;
+    //     }
+    //     for (int j = 1; j <= n-i+1; j++){
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+        
+    //for 1111, 222, 33, 4
+    // for (int i = 1; i <= n; i++){
+    //     int s = i - 1;
+    //     while(s){
+    //         cout << " ";
+    //         s--;
+    //     }
+    //     for (int j = 1; j <= n - i + 1; j++){
+    //         cout << i;
+    //     }
+    //     cout << endl;
+    // }
+
+
+    // for (int i = 1; i <= n; i++){
+    //     int s = n - i;
+    //     while(s){
+    //         cout << " ";
+    //         s--;
+    //     }
+    //     for (int j = 1; j <= i; j++){
+    //         cout << i;
+    //     }
+    //     cout << endl;
+    // }
+        
+    // for (int i = 1; i <= n; i++){
+    //     int s = i - 1;
+    //     while(s){
+    //         cout << " ";
+    //         s--;
+    //     }
+    //     int c = i;
+    //     for (int j = 1; j <= n - i + 1; j++){       
+    //         cout << c;
+    //         c++;
+    //     }
+    //     cout << endl;
+    // }    
+     int c = 1;  
+     for (int i = 1; i <= n; i++){
+        int s = n- i;
+        while(s){
+            cout << " ";
+            s--;
+        }
+        
+        for (int j = 1; j <= i; j++){       
+            cout << c;
+            c++;
+        }
+        cout << endl;
+    }   
         return 0;
 }
