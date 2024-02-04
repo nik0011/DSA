@@ -215,18 +215,54 @@ int main(){
     //     cout << endl;
     // }    
      
-     int c = 1;  
-     for (int i = 1; i <= n; i++){
-        int s = n- i;
-        while(s){
-            cout << " ";
-            s--;
-        }       
-        for (int j = 1; j <= i; j++){       
-            cout << c;
-            c++;
-        }
-        cout << endl;
-    }   
+    //  int c = 1;  
+    //  for (int i = 1; i <= n; i++){
+    //     int s = n- i;
+    //     while(s){
+    //         cout << " ";
+    //         s--;
+    //     }       
+    //     for (int j = 1; j <= i; j++){       
+    //         cout << c;
+    //         c++;
+    //     }
+    //     cout << endl;
+    // }   
+
+      
+    //  for (int i = 1; i <= n; i++){
+    //     int s = n- i;
+    //     while(s){
+    //         cout << " ";
+    //         s--;
+    //     } int c = 1;       
+    //     for (int j = 1; j <= i; j++){       
+    //         cout << c;
+    //         c++;
+    //     }
+    //     for (int k = 1; k <= i - 1; k++){
+    //         int val = i - k;
+    //         cout << val;
+    //         val--;
+    //     }
+    //         cout << endl;
+    // }  
+
+    //Last pattern
+    // for (int i = 1; i <=n; i++){
+    //     for (int j = 1; j <= n - i + 1; j++){
+    //         cout << j;
+    //     }
+    //     for (int k = 1; k <= i - 1; k++){
+    //         cout << "*";
+    //     }
+    //     for (int l = 1; l <= i - 1;l++){
+    //         cout << "*";
+    //     }
+    //     for (int m =  n - i + 1; m >=1; m--){
+    //         cout << m;
+    //     }
+    //         cout << endl;
+    // }
         return 0;
 }
