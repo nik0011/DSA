@@ -214,14 +214,14 @@ int main(){
     //     }
     //     cout << endl;
     // }    
+     
      int c = 1;  
      for (int i = 1; i <= n; i++){
         int s = n- i;
         while(s){
             cout << " ";
             s--;
-        }
-        
+        }       
         for (int j = 1; j <= i; j++){       
             cout << c;
             c++;
