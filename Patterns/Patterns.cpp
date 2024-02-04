@@ -264,5 +264,11 @@ int main(){
     //     }
     //         cout << endl;
     // }
-        return 0;
+
+    int a = 1;
+    int b = a++;
+    int c = ++a;
+    cout << b;
+    cout << c;
+    return 0;
 }
