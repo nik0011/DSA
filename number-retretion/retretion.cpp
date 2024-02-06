@@ -10,7 +10,7 @@ int main(){
         int digit = n % 10;
         prod = prod * digit;
         sum = sum + digit;
-        n = n / 10;0
+        n = n / 10;
     }
     int ans = prod - sum;
    
