@@ -13,6 +13,6 @@ int main(){
         n = n / 10;
     }
     int ans = prod - sum;
-    return ans;
+   
     return 0;
 }
