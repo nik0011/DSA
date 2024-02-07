@@ -4,15 +4,41 @@ using namespace std;
 int main(){
     int n;
     cin >> n;
-    int sum = 0;
-    int prod = 1;
+    int p = 1;
+    int s = 0;
     while(n!=0){
-        int digit = n % 10;
-        prod = prod * digit;
-        sum = sum + digit;
+        int d = n % 10;
+        p = p * d;
+        s = s + d;
         n = n / 10;
     }
-    int ans = prod - sum;
-   
+    int ans = p - s;
+    cout << ans;
     return 0;
 }
+
+
+// for reversing a number
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     int reverse;
+//     while(n!=0){
+//         int d = n % 10;
+//         reverse = reverse * 10 + d;
+//         n = n / 10;
+//     }
+//     cout << reverse;
+
+//     return 0;
+// }
+
+
+
+
+
+
+ // for caclulating no of 1 digit in a binary number
