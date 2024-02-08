@@ -31,7 +31,8 @@ int main()
         reverse = reverse * 10 + d;
         n = n / 10;
     }
-   
+    cout << reverse;
+
     return 0;
 }
 
