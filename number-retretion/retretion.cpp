@@ -19,6 +19,22 @@
 
 
 // for reversing a number
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     int reverse;
+//     while(n!=0){
+//         int d = n % 10;
+//         reverse = reverse * 10 + d;
+//         n = n / 10;
+//     }
+//     cout << reverse;
+
+//     return 0;
+// }
 
 
  // for caclulating no of 1 digit in a binary number
