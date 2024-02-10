@@ -38,3 +38,18 @@
 
 
  // for caclulating no of 1 digit in a binary number
+#include<iostream>
+using namespace std;
+ int main(){
+     int n;
+     cin >> n;
+     int count;
+     while(n!=0){
+         if(n&1){
+            count++;
+         }
+         n =n >> 1;
+     }
+     cout << count;
+     return 0;
+ }
