@@ -67,23 +67,49 @@
 // }
 
 // for calc sum of all element...
-#include <iostream>
-using namespace std;
-int totalsum(int arr[], int n){
-    int sum=0;
-    for (int i = 0; i < n; i++){
-        sum = sum + arr[i];
-    }
-    return sum;
-}
-int main() {
-    int arr[100];
-    int n;
-    cin >> n;
-    for (int i = 0; i < n; i++){
-        cin >> arr[i];
-    }
-    cout << totalsum(arr, n);
+// #include <iostream>
+// using namespace std;
+// int totalsum(int arr[], int n){
+//     int sum=0;
+//     for (int i = 0; i < n; i++){
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
+// int main() {
+//     int arr[100];
+//     int n;
+//     cin >> n;
+//     for (int i = 0; i < n; i++){
+//         cin >> arr[i];
+//     }
+//     cout << totalsum(arr, n);
 
-    return 0;
-}
+//     return 0;
+// }
+
+//  linear searching....
+// #include <iostream>
+// using namespace std;
+// bool search(int arr[], int size , int key){
+//     for (int i = 0; i < size; i++){
+//         if(arr[i]==key){
+//             return 1;
+//         }
+//     }
+//     return 0;
+// }
+// int main() {
+//     int arr[10] = {1, 2, 4, 6, -7, 89, 0, 22, 33, 11};
+//     cout << "Enter the key to be found"<<endl;
+//     int key;
+//     cin >> key;
+//     bool found = search(arr, 10, key);
+//     if(found){
+//         cout << "key is present" << endl;
+//     }
+//     else{
+//         cout << "key is not found";
+//     }
+//     return 0;
+// }
