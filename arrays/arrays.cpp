@@ -138,5 +138,5 @@ int main() {
     reverse(brr, 5);
     printarray(arr, 5);
     printarray(brr, 5);
-    return 0;
+    return 0
 }
